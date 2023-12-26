@@ -1,4 +1,4 @@
-#Temperature converter
+# Temperature converter
 
 In this project, I am for the first time combining my html and css knowledge with some javascript content
 

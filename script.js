@@ -1,9 +1,11 @@
-// script.js
-//alert("Hello, this is JavaScript!");
-const menu = document.querySelector('.java-script')
-const menuLinks = document.querySelector('#converter')
+const result = document.getElementById("result");
 
-menu.addEventListener('click', function(celsius) {
+function appendToDisplay(input){
+
+    function calculate{}
+}
+
+menu.addEventListener('click', function convert (celsius) {
     let celsius = 0;
     let fahrenheit = Math.floor(celsius * (9 / 5) + 32);
 

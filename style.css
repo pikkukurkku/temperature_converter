@@ -45,10 +45,30 @@ section img {
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
+@media screen and (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600 pixels (typical for mobile devices) */
+    body {
+        header {
+            font-size: 1.5em; /* Adjust font size for smaller screens */
+          }
+        
+          main {
+            padding: 20px;
+          }
+        
+          section {
+            background-size: contain; /* Change background size to contain for smaller screens */
+          }
+        
+          #converter {
+            width: 100%; /* Make the converter div take the full width on smaller screens */
+          }
+        }
+    }
 
 #converter {
     position: absolute;
-    width: 580px;
+    width: 100%;
     font-size: 18px;
     display: flex;
     flex-direction: column;

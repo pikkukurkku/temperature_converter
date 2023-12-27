@@ -50,6 +50,15 @@ section img {
     body {
         header {
             font-size: 1.5em; /* Adjust font size for smaller screens */
+            padding: 10px; /* Reduce padding on smaller screens */
+          }
+
+          h1 {
+            font-size: 1.5em; /* Adjust font size for smaller screens */
+          }
+        
+          h2 {
+            font-size: 1em; /* Adjust font size for smaller screens */
           }
         
           main {

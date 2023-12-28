@@ -16,6 +16,12 @@ document.getElementById('submit').addEventListener('click', function (event) {
 function convertInput() {
     let inputDegreeElement = document.getElementById('inputDegree');
     let inputDegree = parseFloat(inputDegreeElement.value);
+
+    if (isNaN(inputDegree)) {
+        alert('Please enter a valid temperature in Fahrenheit.');
+        return; // Exit the function if input is not a valid number
+    }
+    
     let celsius = Math.round((inputDegree - 32) * (5 / 9));
 
     let resultElement = document.getElementById('result');

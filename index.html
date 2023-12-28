@@ -23,17 +23,20 @@
       
         <div id="converter">
           <form>
-            <label for="temperature">Convert this temperature in Fahrenheit:</label>
-            <input type="number" id="temperature" name="temperature">
-          </form>
+            <label for="temperature">Temperature in Fahrenheit:</label>
+              <div id="input">
+                <input type="number" id="inputDegree" name="temperature">
+              </div>
 
-        <button>Click to convert to Celsius</button>
+          <button type="button" id="submit">Convert to Celsius</button>
+        </form>
 
-          <form>
-            <label for="result">Corresponds to this temperature in Celsius:</label>
-            <input id="result" type="text" name="result">
-         </form>
-      </div>
+            <label for="result">Temperature in Celsius:</label>
+            <div id="output">
+                <input id="result" type="text" name="result" readonly>
+            </div>
+
+        </div>
     </section>
 </main>
 

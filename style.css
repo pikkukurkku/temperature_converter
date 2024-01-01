@@ -52,7 +52,7 @@ section img {
         header {
             font-size: 1.5em; /* Adjust font size for smaller screens */
             padding: 10px; /* Reduce padding on smaller screens */
-            background-size: contain;
+            background-size: cover;
           }
 
           h1 {
@@ -64,7 +64,7 @@ section img {
           }
         
           section {
-            background-size: contain; /* Change background size to contain for smaller screens */
+            background-size: cover; /* Change background size to contain for smaller screens */
           }
         
           #converter {

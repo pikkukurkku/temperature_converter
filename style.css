@@ -46,12 +46,13 @@ section img {
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     /* Styles for screens with a maximum width of 600 pixels (typical for mobile devices) */
     body {
             font-size: 1.5em; /* Adjust font size for smaller screens */
             padding: 10px; /* Reduce padding on smaller screens */
             background-size: cover;
+            width: 100vw
           }
 
           h1 {
@@ -59,7 +60,7 @@ section img {
           }
         
           h2 {
-            font-size: 1em; /* Adjust font size for smaller screens */
+            font-size: em; /* Adjust font size for smaller screens */
           }
         
           section {
@@ -69,6 +70,9 @@ section img {
           #converter {
             width: 100%; /* Make the converter div take the full width on smaller screens */
           }
+
+          header {
+            width: 100%
     }
 
 #converter {
@@ -79,7 +83,7 @@ section img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 18px;
     font-size: 22px;
     z-index: 1; /* Ensure the button and form appear above the background image */
 }
@@ -110,4 +114,8 @@ input {
     text-align: center;
     font-size: 18px;
     margin-top: 15px;
+}
+
+header {
+    
 }

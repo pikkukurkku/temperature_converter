@@ -1,15 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Afacad&display=swap");
 
-
-
-html, body, button {
-    margin: 0;
-    padding: 0;
-    font-family: Afacad;
-    font-size: 18px;
+html,
+body,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: Afacad;
+  font-size: 18px;
 }
 
-header {
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600 pixels (typical for mobile devices) */
+
+  header {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -17,71 +25,36 @@ header {
     padding: 40px 0;
     background-color: brown;
     width: 100%;
-}
+  }
 
-h1, h2 {
+  h1,
+  h2 {
     box-sizing: border-box;
     background-color: bisque;
     width: 100%;
     padding: 5px 10px;
-}
+  }
 
-section {
+  section {
     display: flex;
     flex-direction: column;
-   
+
     text-align: center;
     align-items: center;
     font-weight: bold;
     position: relative;
     width: 100%;
-}
+  }
 
-section img {
+  section img {
     width: 100%;
     height: 100vh;
     background-size: cover; /* This will make the background image cover the entire container */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
-}
+  }
 
-@media screen and (max-width: 600px) {
-    /* Styles for screens with a maximum width of 600 pixels (typical for mobile devices) */
-    body {
-      
-            font-size: 1.5em; /* Adjust font size for smaller screens */
-            padding: 10px; /* Reduce padding on smaller screens */
-            background-size: cover;
-            width: 100vw
-          }
-
-          h1 {
-            box-sizing: border-box;
-            padding: 5px 10px;
-            font-size: 1.5em; /* Adjust font size for smaller screens */
-          }
-        
-          h2 {
-            box-sizing: border-box;
-            padding: 5px 10px;
-            font-size: em; /* Adjust font size for smaller screens */
-          }
-        
-          section {
-            background-size: cover; /* Change background size to contain for smaller screens */
-            width: 100vw
-          }
-        
-          #converter {
-            width: 100%; /* Make the converter div take the full width on smaller screens */
-          }
-
-          header {
-            width: 100%
-            width: 100vw
-    }
-
-#converter {
+  #converter {
     position: absolute;
     width: 100%;
     font-size: 20px;
@@ -92,26 +65,26 @@ section img {
     margin-top: 18px;
     font-size: 22px;
     z-index: 1; /* Ensure the button and form appear above the background image */
-}
+  }
 
-button {
+  button {
     width: 200px;
     height: 40px;
     font-size: 20px;
     margin-top: 60px;
-}
+  }
 
-button:hover{
+  button:hover {
     background: brown;
     transition: all 0.4s ease;
     color: bisque;
-}
+  }
 
-form {
+  form {
     padding: 60px;
-}
+  }
 
-input {
+  input {
     height: 40px;
     width: 80px;
     outline: none;
@@ -120,10 +93,5 @@ input {
     text-align: center;
     font-size: 18px;
     margin-top: 15px;
-}
-
-header {
-    
-}
-
+  }
 }

@@ -46,7 +46,7 @@ section img {
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 370px) {
     /* Styles for screens with a maximum width of 600 pixels (typical for mobile devices) */
     body {
       

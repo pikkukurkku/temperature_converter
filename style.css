@@ -46,9 +46,10 @@ section img {
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
     /* Styles for screens with a maximum width of 600 pixels (typical for mobile devices) */
     body {
+      
             font-size: 1.5em; /* Adjust font size for smaller screens */
             padding: 10px; /* Reduce padding on smaller screens */
             background-size: cover;
@@ -56,15 +57,18 @@ section img {
           }
 
           h1 {
+            box-sizing: border-box;
             font-size: 1.5em; /* Adjust font size for smaller screens */
           }
         
           h2 {
+            box-sizing: border-box;
             font-size: em; /* Adjust font size for smaller screens */
           }
         
           section {
             background-size: cover; /* Change background size to contain for smaller screens */
+            width: 100vw
           }
         
           #converter {
@@ -73,6 +77,7 @@ section img {
 
           header {
             width: 100%
+            width: 100vw
     }
 
 #converter {
